@@ -20,10 +20,12 @@ body{
 }
 header{
     position: relative;
-    height: 15vh;
+    height: 16vh;
     width: 100%;
     background-image: url(./images/iapqmzd3zu721.jpeg); 
-    border-bottom: .5vh solid white;
+    border-bottom: .5vh solid #ffc547;
+    display: flex;
+    flex-direction: column;
 }
 .title{
     color: #ffffff;
@@ -33,6 +35,7 @@ header section{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1vh;
 }
 header section h1{
     font-size: 5vh;
@@ -42,19 +45,23 @@ header section h2{
     font-size: 2vh;
 }
 
-.NavItems{
-    font-size: 2vh;
-}
 .NavBar ul {
     display: flex;
-    Justify-content: space-around;
-    align-items: center;
     width: 100%;
     margin-top: 2vh;
 }
+.NavBar ul li{
+    margin: 0 10vh;
+}
 .NavBar ul li a{
+    font-size: 2.5vh;
     color: rgb(255, 255, 169);
 }
+.NavBar{
+    flex-grow: 1;
+    margin: 0 auto;
+}
+
 .Spike_banner{
     background-image: url(./images/spike2.jpg);
     background-size: cover;
@@ -64,3 +71,4 @@ header section h2{
     margin: 2vh auto;
     position: relative;
 }
+
