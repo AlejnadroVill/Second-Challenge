@@ -1,0 +1,7 @@
+/* Some reset values to start styling */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
