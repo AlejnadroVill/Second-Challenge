@@ -4,4 +4,63 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    a {
+        color: #000000; 
+        text-decoration: none; 
+    }
+}
+
+body{
+    position: relative;
+    font-family: "Lilita One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+}
+header{
+    position: relative;
+    height: 15vh;
+    width: 100%;
+    background-image: url(./images/iapqmzd3zu721.jpeg); 
+    border-bottom: .5vh solid white;
+}
+.title{
+    color: #ffffff;
+}
+header section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header section h1{
+    font-size: 5vh;
+    margin-bottom: .5vh;
+}
+header section h2{
+    font-size: 2vh;
+}
+
+.NavItems{
+    font-size: 2vh;
+}
+.NavBar ul {
+    display: flex;
+    Justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2vh;
+}
+.NavBar ul li a{
+    color: rgb(255, 255, 169);
+}
+.Spike_banner{
+    background-image: url(./images/spike2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 90%;
+    margin: 2vh auto;
+    position: relative;
 }
